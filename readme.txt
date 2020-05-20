@@ -7,3 +7,5 @@ git push -u master origin
 
 git pull <per utenti che hanno un repository già configurato e/o clonato)
 
+Aggiunta riga di testo
+
