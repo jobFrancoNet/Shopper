@@ -1,0 +1,1 @@
+#specifiche connessione al database mysql e sqlite
