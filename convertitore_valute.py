@@ -22,6 +22,8 @@ class convertitore():
         self.etichetta_res.place(y=130, x=390)
         self.lista=window.Listbox(self.finestra,width=25,height=20,bg="snow")
         self.lista.place(y=160,x=30)
+        #caricamento lista valori al caricamento del form
+        self.lista=self.formatta_info()
         self.testo_eur=window.Text(self.finestra,width=10,height=1,bg="snow")
         self.testo_eur.place(y=160,x=235)
         self.testo_valore = window.Text(self.finestra, width=10, height=1, bg="snow")
